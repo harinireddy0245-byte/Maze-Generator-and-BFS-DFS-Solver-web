@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #eef2ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    color: #1e3a8a;
+}
+
+.size-controls input {
+    padding: 8px;
+    margin: 5px;
+    width: 120px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+canvas {
+    margin-top: 20px;
+    border: 2px solid black;
+    background: white;
+}
+
+#difficultyBox {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}

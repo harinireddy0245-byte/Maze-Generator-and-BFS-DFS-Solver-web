@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Generator and BFS/DFS Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Maze Generator and BFS/DFS Solver</h1>
+
+    <p class="subtitle">
+        Recursive Backtracking | BFS | DFS | Difficulty Rater
+    </p>
+
+    <!-- SIZE INPUT -->
+    <div class="size-controls">
+        <input id="rowsInput" type="number" placeholder="Rows">
+        <input id="colsInput" type="number" placeholder="Cols">
+    </div>
+
+    <!-- BUTTONS -->
+    <div class="controls">
+        <button id="generateBtn">Generate Maze</button>
+        <button id="bfsBtn">Solve BFS</button>
+        <button id="dfsBtn">Solve DFS</button>
+        <button id="difficultyBtn">Rate Difficulty</button>
+    </div>
+
+    <!-- CANVAS -->
+    <div class="canvas-container">
+        <canvas id="mazeCanvas"></canvas>
+    </div>
+
+    <!-- OUTPUT -->
+    <div id="difficultyBox">
+        <h2>Difficulty</h2>
+        <p id="difficultyResult">Generate a maze first</p>
+    </div>
+
+</div>
+
+<script src="maze.js"></script>
+<script src="solver.js"></script>
+<script src="difficulty.js"></script>
+
+</body>
+</html>
